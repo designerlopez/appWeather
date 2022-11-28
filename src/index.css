@@ -105,3 +105,66 @@ section{
   padding: 0;
 
 }
+
+@media (min-width: 720px) {
+  .App{
+    background-image: url(./assets/bgDesktop.png);
+  }
+  h3{
+   font-size: 4rem;
+    margin-left: 3rem;
+  }
+
+  .weatherCard{
+    margin:0 25rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(red, green, blue, 0.1);
+    color: white;
+
+  }
+
+  .weatherCard_temperature{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+  }
+  .weatherCard_temperature >p{
+    font-size: 12rem;
+    
+  }
+
+  .btn_ChangeUnity {
+    margin-right: 2rem;
+    width: 10rem;
+    height: 10rem;
+    align-items: center;
+  }
+
+  section{
+
+    width: 100%;
+  }
+
+  .weatherCard_img{
+    width:100%;
+    
+    
+
+  }
+
+  .weatherCard_img img{
+    width: 20rem;
+
+
+  }
+
+
+
+  
+
+
+}

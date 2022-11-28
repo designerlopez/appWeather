@@ -3,9 +3,9 @@ import React from "react";
 const WeatherCard = ({ weather, temperature, isCelsius, changeUnitTemp }) => {
   return (
     <article className="weatherCard">
-      <h1>Weather App</h1>
+      
       <h3>{`${weather.name}, ${weather.sys.country}`}</h3>
-      <div>
+      <div className="weatherCard_temperature">
       <p>{isCelsius? `${temperature.celsius} °C`: `${temperature.fahrenheit} °F`} </p>
       <button className="btn_ChangeUnity"onClick={changeUnitTemp}>Change °F/°C</button>
       </div>
