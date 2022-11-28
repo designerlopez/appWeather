@@ -4,6 +4,7 @@ body{
   margin: 0;
   padding: 0;
   font-family: 'Roboto', sans-serif;
+  color: white;
   
 }
 
@@ -54,7 +55,7 @@ section{
 }
 
 .weatherCard{
-  margin-top: 8rem;
+  margin: 5rem 5rem;
   padding: 1rem 2rem;
   display: flex;
   flex-direction: column;
@@ -64,9 +65,21 @@ section{
   padding: 3rem 1rem 1rem 3rem;
   text-align: center;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 255, 0.6);
+  transition: 0.2s background
   
 }
+
+.weatherCard:hover{
+background-color:  red;
+background: blue;
+
+
+
+
+}
+
+
 
 .btn_ChangeUnity{
   cursor: pointer;
@@ -76,32 +89,22 @@ section{
 }
 
 .btn_ChangeUnity :hover{
-  background-color: rgba(red, green, blue, 0.4);
+  background-color: rgba(0, 0, 255, 0.4);
   background: white;
 }
 
 .weatherCard_details >li{
-  text-transform: capitalize;
-  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
 }
 
 
-
-
-
-.weatherCard_img{
-  width:100%;
-  
-}
 
 .btn_ChangeUnity{
   border-radius: 1rem;
   width:fit-content;
   align-items: center;
-
-
 }
-
 
 .weatherCard_details{
   text-align: center;
@@ -110,7 +113,53 @@ section{
 
 }
 
-@media (min-width: 720px) {
+@media (min-width: 1401px) {
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1400px) {
+
+  h1{
+    margin: 1rem 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    color:#1d3d33;
+    border: 1px solid;
+    border-radius: 1rem;
+  }
+  
+  h3{
+    margin: 0;
+    font-size: 2.2rem;
+  }
+  p{
+    font-size: 4rem;
+    margin:1rem;
+  }
+  
+  section{
+    margin: 0;
+    padding:0;
+  }
   .App{
     background-image: url(./assets/bgDesktop.png);
   }
@@ -164,18 +213,12 @@ section{
   cursor: pointer;
   border: none;
   padding: 0.7rem;
-  transition: 0.2s background
+  transition: 0.2s background;
 }
 
 .btn_ChangeUnity :hover{
   background-color: rgba(red, green, blue, 0.4);
   background: white;
 }
-
-  
-
-
-  
-
 
 }
