@@ -2,28 +2,106 @@
 
 body{
   margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
   
 }
+
+ul{
+  margin: 0;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+h1{
+  margin: 1rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color:#1d3d33;
+  border: 1px solid;
+  border-radius: 1rem;
+}
+
+h3{
+  margin: 0;
+  font-size: 2.2rem;
+}
+p{
+  font-size: 2rem;
+  margin:1rem;
+}
+
+section{
+  margin: 0;
+  padding:0;
+}
+
 
 
 .App{
   width: 100%;
   display: flex;
   justify-content: center;
-  background-image: url(./assets/bgDesktop.png);
+  background-image: url(./assets/bgMobile.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
-  align-items: center;
-  
-  
+  align-items: center;  
 }
 
 .weatherCard{
-  border: 3px solid black;
+  margin: 0 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 4px solid black;
   border-radius: 3rem;
-  padding: 0 2rem 1rem 0;
+  padding: 0rem 1rem 1rem 1rem;
   text-align: center;
-  height: fit-content;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.3);
+  
+}
+
+.btn_ChangeUnity{
+  cursor: pointer;
+  border: none;
+  padding: 0.7rem;
+  transition: 0.2s background
+}
+
+.btn_ChangeUnity :hover{
+  background-color: rgba(red, green, blue, 0.4);
+  background: white;
+}
+
+.weatherCard_details >li{
+  text-transform: capitalize;
+}
+
+
+
+
+
+.weatherCard_img{
+  width:100%;
+  
+}
+
+.btn_ChangeUnity{
+  border-radius: 1rem;
+  width:fit-content;
+  align-items: center;
+
+
+}
+
+
+.weatherCard_details{
+  text-align: center;
+  margin: 0 0 2rem 0;
+  padding: 0;
+
 }
