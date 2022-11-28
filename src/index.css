@@ -1,0 +1,29 @@
+
+
+body{
+  margin: 0;
+  
+}
+
+
+.App{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-image: url(./assets/bgDesktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  align-items: center;
+  
+  
+}
+
+.weatherCard{
+  border: 3px solid black;
+  border-radius: 3rem;
+  padding: 0 2rem 1rem 0;
+  text-align: center;
+  height: fit-content;
+}
